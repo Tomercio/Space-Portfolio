@@ -8,7 +8,9 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
-      <h1 className="text-4xl font-bold mb-6">About Me</h1>
+      <h1 className="text-4xl font-bold mb-6">
+        About <span className="text-purple-300">Me</span>
+      </h1>
 
       <motion.p
         className="max-w-2xl text-lg leading-relaxed mb-10"
@@ -16,13 +18,20 @@ export default function About() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 1 }}
       >
-        I'm Tomer Amitai, a passionate Security Researcher and Frontend
-        Developer. I started my journey in cybersecurity and frontend after a
-        Fullstack bootcamp, and I love blending creativity with technical
-        challenges.
+        Hey ! It's Tomer, After 6 successful years in sales, I've made an
+        exciting career shift to follow my true passion: cybersecurity. While
+        learning full-stack development and network operations along the way, I
+        started my journey to evolve in the cyber security field. My toolkit
+        includes alots of offensive and deffensive tools. I'm experienced in
+        network scanning, vulnerability assessment, web application security
+        testing, and system enumeration. Currently expanding my knowledge in
+        exploit development and privilege escalation techniques. Now I'm
+        channeling my energy into building security tools and to master Python.
         <br />
-        My goal is to keep growing, build useful things, and always stay
-        curious.
+        In my free time, I am into traveling around the world, off road driving,
+        extreme activities and gaming. Love to learn new things and grow as a
+        person.
+        <br /> Excited about the future. Let's connect !
       </motion.p>
 
       <motion.a
