@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 
 const textures = {
   "Phishing Detector": "/textures/earth.jpg",
-  "Malware Analysis": "/textures/mars.jpg",
-  "SQLi Tester": "/textures/sun.jpg",
+  "Malware Analysis": "/textures/jupiter.jpg",
+  "SQLi Tester": "/textures/mars.jpg",
 };
 
 const slugs = {
@@ -95,7 +95,7 @@ export default function PlanetCard({ project }) {
     setTimeout(() => {
       const slug = slugs[project.name];
       if (slug) navigate(`/project/${slug}`);
-    }, 800); // מחכה לרגע האפקט
+    }, 800);
   };
 
   return (

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { projects } from "../data/projects";
+import { projects } from "./data/projects";
 import { motion } from "framer-motion";
 
 export default function ProjectPage() {
@@ -40,8 +40,6 @@ export default function ProjectPage() {
           ))}
         </ul>
       </div>
-
-      {/* כפתור לגיטהאב */}
       <a
         href={`https://github.com/Tomercio/${project.slug}`}
         target="_blank"

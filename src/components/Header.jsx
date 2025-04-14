@@ -14,7 +14,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <nav className="flex justify-center gap-10 text-gray-300 text-sm">
+        <nav className="flex justify-center gap-6 text-gray-300 text-sm whitespace-nowrap">
           <Link to="/" className="hover:text-purple-400 transition">
             Home
           </Link>
@@ -23,7 +23,6 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* עמודה 3 - ריקה כדי לאזן */}
         <div />
       </div>
     </header>

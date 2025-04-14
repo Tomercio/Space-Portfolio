@@ -60,10 +60,10 @@ export default function Starfield() {
     window.addEventListener("resize", handleResize);
 
     return () => {
-      cancelAnimationFrame(animationRef.current); // ✅ מנקה נכון
+      cancelAnimationFrame(animationRef.current);
       window.removeEventListener("resize", handleResize);
       if (mountRef.current?.contains(canvas)) {
-        mountRef.current.removeChild(canvas); // ✅ רק אם קיים
+        mountRef.current.removeChild(canvas);
       }
       renderer.dispose();
     };

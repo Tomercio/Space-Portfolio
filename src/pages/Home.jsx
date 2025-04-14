@@ -1,5 +1,5 @@
 import PlanetCard from "../components/PlanetCard";
-import { projects } from "../data/projects";
+import { projects } from "./data/projects";
 
 export default function Home() {
   return (
